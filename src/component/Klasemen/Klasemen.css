@@ -1,0 +1,50 @@
+/* Klasemen.css */
+.klase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+  
+  .klase:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .klase img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .klase .name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .klase .name:hover {
+    color: #007bff;
+  }
+
+  .klase .abbr {
+    margin-top: -5px;
+  }
+  
+  .klase .slug,
+  .klase .abbr {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,5 @@
+component = kumpulan elemen
+elemen = tag
+app.js = sebagai component parent/bapanya
+sedangkan yg berada di folder component = disebut sebagai child/anaknya
+disambungkan dengan export dan import

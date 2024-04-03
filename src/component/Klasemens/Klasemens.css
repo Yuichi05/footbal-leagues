@@ -1,0 +1,26 @@
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    margin: 10px;
+}
+
+h2 {
+    margin-left: 20px;
+    color: #4361ee;
+    font-size: 2rem;
+}
+
+/* medium screen */
+@media (min-width: 768px) {
+    .movies-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+/* large screen */
+@media (min-width: 992px) {
+    .movies-container {
+        grid-template-columns: repeat(6,1fr);
+    }
+}

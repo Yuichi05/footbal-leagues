@@ -1,0 +1,60 @@
+.league-details-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .league-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4361ee;
+
+  }
+  
+  .league-id {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .title-2 {
+    margin-top: -60px;
+    font-size: 1rem;
+  }
+  .title-1 {
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+    color: #0051ff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 80%;
+    }
+  }

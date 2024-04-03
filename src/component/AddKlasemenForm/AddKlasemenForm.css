@@ -1,0 +1,74 @@
+/* AddKlasemenForm.css */
+.container {
+  align-items: center;
+  justify-content: center;
+  /* padding: 32px; */
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  margin-top: 30px;
+}
+
+.form-left {
+  width: 40%;
+}
+
+.form-right {
+  width: 60%;
+}
+
+.form-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: #333;
+}
+
+.form-inputgroup {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
